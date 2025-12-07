@@ -11,10 +11,15 @@ Features
 
 ## How to Run
 
+Download ## Node.js 
+Finish the wizard 
+and:
+
 use this: 
 ``powershell
 node binaryConverter.js
 ``
 Put any valid binary string in like 101 and it will come 5
+
 
 ## Made by Gordon

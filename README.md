@@ -10,6 +10,7 @@ A simple yet efficient command-line tool that transforms binary numbers into the
 - Error handling for invalid inputs
 - Interactive mode and command-line argument support
 - Built-in help documentation
+- **Beautiful terminal GUI mode** with menu-driven interface (new!)
 
 ## Requirements
 
@@ -73,6 +74,29 @@ or
 ```bash
 node binary-converter.js -h
 ```
+
+### GUI Mode (New!)
+
+Launch a built-in terminal-based graphical interface:
+
+```bash
+node binary-converter.js --gui
+```
+
+The terminal GUI features:
+- Beautiful box-drawing interface with menus
+- Interactive menu-driven navigation
+- Convert binary numbers with prompts
+- View example conversions
+- Built-in help documentation
+- Easy exit option
+- Press Ctrl+C anytime to quit
+
+**How to use the GUI:**
+1. Select option `[1]` to convert a binary number
+2. Select option `[2]` to view examples
+3. Select option `[3]` for help
+4. Select option `[0]` to exit
 
 ## Examples
 
